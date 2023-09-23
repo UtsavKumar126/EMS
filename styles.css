@@ -1,0 +1,22 @@
+#root {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-gap:20px
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+table{
+    align-self: start;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+} 
+td,th{
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+}

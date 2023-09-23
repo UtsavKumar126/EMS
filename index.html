@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1><center>Employee Management System</center></h1>
+    <hr>
+    <div id="root">
+            <form id="form">
+                <input type="text" name="name" required placeholder="Enter your name">
+                <input type="email" name="email" required placeholder="Enter email Id">
+                <input type="text" name="compId" required placeholder="Enter compID"> 
+                <input type="text" name="compName" required placeholder="Enter comName">
+                <select name="role" required>
+                    <option value="sde">SDE</option>
+                    <option value="qa">QA</option>
+                    <option value="manager">MANAGER</option>
+                    <option value="CEO">CEO</option>
+                </select>
+                <input type="text" name="exp" required placeholder="Enter Experience">
+                <button id="submit">Add Employee</button>
+
+            </form>
+    <table id="curTab">
+        <thead>
+            <tr>
+               <th>Name</th>
+               <th>Email</th>
+               <th>CompanyId</th>
+               <th>ComanyName</th>
+               <th>Role</th>
+               <th>Experience</th>
+               <th>Options</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
